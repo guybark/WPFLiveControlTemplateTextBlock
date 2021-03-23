@@ -1,0 +1,21 @@
+﻿<Application x:Class="WPFLiveSetting.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFLiveSetting"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="UserControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="UserControl">
+                        <Grid>
+                            <local:LiveControlTemplateTextBlock 
+                                x:Name="TestTextBlock" 
+                                AutomationProperties.LiveSetting="Assertive" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

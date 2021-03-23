@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLiveControlTemplateTextBlock", "WPFLiveSetting\WPFLiveControlTemplateTextBlock.csproj", "{84695B2A-950E-4058-8369-D117A43BF5D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84695B2A-950E-4058-8369-D117A43BF5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84695B2A-950E-4058-8369-D117A43BF5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84695B2A-950E-4058-8369-D117A43BF5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84695B2A-950E-4058-8369-D117A43BF5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A9379F-F1FF-4978-BA1E-DC756E0386F1}
+	EndGlobalSection
+EndGlobal
